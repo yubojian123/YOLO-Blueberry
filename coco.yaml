@@ -1,0 +1,18 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# COCO 2017 dataset https://cocodataset.org by Microsoft
+# Documentation: https://docs.ultralytics.com/datasets/detect/coco/
+# Example usage: yolo train data=coco.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── coco  ← downloads here (20.1 GB)
+path: /dev/shm/my_dataset
+train: /dev/shm/my_dataset/train/images
+val: /dev/shm/my_dataset/valid/images
+test: /dev/shm/my_dataset/test/images
+
+# Classes
+names:
+  0: Green stage
+  1: Color changing stage
+  2: Ripening stage
